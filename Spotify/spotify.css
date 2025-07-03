@@ -1,0 +1,227 @@
+*{
+    margin: 0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family: SpotifyMixUI, CircularSp, Helvetica, Arial, sans-serif;
+}
+
+nav{
+    border: 2px solid black;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+nav div{
+    width: 30%;
+    display: flex;
+    align-items: center;
+}
+nav svg{
+    height: 35px;
+    fill: white;
+}
+nav ol{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+nav div{
+    width: 10%;
+
+}
+nav div+div{
+    width: 35%;
+
+}
+nav li{
+    font-size: 15px;
+    font-weight: 600;
+}
+nav li:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+main{
+    background: url('./Assets/desktop-hero.jpeg') center 40% / 100% no-repeat;
+    height: 500px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+main h1{
+    color: white;
+    font-size: 60px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: -1px;
+}
+main button{
+   border-radius: 20px;
+   font-size: 15px;
+   height: 50px;
+   width: 150px;
+font-weight: 600;
+border: none;
+background-color: white;
+
+}
+#sec1{
+    /* border: 2px solid red; */
+    height: 600px;
+}
+#sec1 h1{
+    font-size: 40px;
+    text-align: center;
+    color:black;
+    
+}
+#sec1 aside{
+    
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 20px;
+}
+#sec1 div{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 270px;
+text-align: center;
+line-height: 20px;
+font-weight: 300px;
+}
+#sec2{
+    /* border: 2px solid red; */
+    background-color:#1ed760 ;
+    height: 460px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#sec2 h1{
+    font-size: 45px;
+
+}
+#sec3 {
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sec3 h1{
+    font-size: 40px;
+
+}
+#sec3 aside{
+    /* border: 2px solid red; */
+    height: 300px;
+    width: 70%;
+}
+i{
+    float: inline-end;
+}
+#sec3 details summary{
+    list-style: none;
+}
+#sec3 font{
+    color: green;
+    font-weight: 600;
+}
+#sec3 aside div{
+    /* border: 2px solid green; */
+    height: 75px;
+    padding: 25px;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 1px solid gainsboro;
+}
+#sec3 aside div:hover{
+    cursor: pointer;
+    background-color: #e7e7e7;
+text-decoration: underline;
+}
+#sec4{
+    /* border: 2px solid red; */
+    height: 450px;
+background: url('./Assets/desktop-closing.jpeg') center 40% / 100% no-repeat;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+gap: 30px;
+}
+#sec4 h1{
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    text-align: center;
+    color: white;
+}
+#sec4 button{
+    border-radius: 25px;
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+}
+footer{
+    /* border: 2px solid red; */
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+footer svg{
+    height: 35px;
+    fill: white;
+}
+footer aside{
+    /* border: 2px solid green; */
+    height: 350px;
+    width: 73%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+footer ol{
+  list-style: none;
+  line-height: 35px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+footer ol>li{
+    color: gray;
+    text-transform: uppercase;
+}
+footer ol>li+li{
+    color: white;
+    text-transform: capitalize;
+}
+footer ol>li+li:hover{
+    cursor: pointer;
+    color: #1ed760;
+}
+footer div:last-child{
+    display: flex;
+    gap: 25px;
+}
+footer article{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    align-content: center;
+    background-color: #222326;
+    font-size: 25px;
+}

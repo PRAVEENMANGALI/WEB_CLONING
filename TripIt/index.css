@@ -1,0 +1,422 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "ProximaNovaSbold", Arial, sans-serif;
+}
+nav{
+    /* border: 2px solid red; */
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+nav div{
+    /* border: 2px solid green; */
+    height: 60px;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav div+div{
+    width: 38%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav div+div ul{
+   list-style: none;
+   display: flex;
+   font-size: 15px;
+   font-weight: 500;
+   justify-content: center;
+   text-align: center;
+   align-items: center;
+   flex-direction: row;
+   gap: 35px;
+
+}
+nav div+div+div {
+    width: 32%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 20px;
+}
+nav div article{
+    border: 2px solid blue;
+    height: 40px;
+    width: 160px;
+ align-items: center;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+color: #107AC5;
+border-color: #107AC5;
+padding: 10px;
+font-weight: 500;
+}
+nav article:hover{
+    cursor: pointer;
+    background-color: #107AC5;
+    color: white;
+}
+nav div article+article{
+    width: 100px;
+
+}
+nav #a1{
+    border: none;
+}
+nav #d1{
+    display: flex ;
+    justify-content: center;
+
+}
+
+main{
+    /* border: 2px solid red; */
+    height: 800px;
+background: url('./Assets/illu-homepage-hero.svg') center 138% / 120% no-repeat;
+  position: relative;
+
+}
+main aside{
+    /* border: 2px solid red; */
+    height: 350px;
+    width: 500px;
+    position: absolute;
+    top: 23%;
+    left: 44%;
+}
+main h1{
+    font-size: 45px;
+    font-weight: 500;
+}
+main p{
+    font-size: 20px;
+    
+    line-height: 30px;
+}
+main button{
+    border: none;
+    height: 50px;
+    width: 250px;
+    font-size: 17px;
+    color: white;
+    border-radius: 3%;
+    background-color: #107ac5;
+}
+#sec1{
+    /* border: 2px solid red; */
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec1 aside{
+    /* border: 2px solid green; */
+    height: 580px;
+    width: 70%;
+    display: flex;
+}
+#sec1 aside div{
+    /* border: 2px solid red; */
+    height: 580px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#sec1 div img{
+    height: 580px;
+    
+}
+#sec1 aside div+div{
+
+
+display: flex;
+justify-content: start;
+align-items: start;
+flex-direction: column;
+position: relative;
+}
+#sec1 aside div+div h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+#sec1 aside p{
+    font-size:18px ;
+   
+    font-weight: 400;
+    line-height: 25px;
+}
+#sec1 a{
+    font-size: 18px;
+    color: #107AC5;
+   
+}
+#sec1 aside i{
+    font-size: 18px;
+    line-height: 25px;
+color: #757575;
+}
+#sec2{
+    /* border: 2px solid red; */
+    height: 530px;
+    display: flex;
+    justify-content: center;
+}
+#sec2 aside{
+    /* border: 2px solid red; */
+    height: 550;
+    width: 65%;
+    display: flex;
+}
+#sec2 aside div{
+    /* border: 2px solid green; */
+    height: 550px;
+    width: 50%;
+    align-items: center;
+
+}
+#sec2 aside div h1{
+font-size: 28px;
+font-weight: 500;
+}
+#sec2 aside div p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    
+}
+#sec2 aside div i{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    
+}
+#sec2 aside a{
+    font-size: 18px;
+    line-height: 25px;
+    color: #107AC5;
+}
+#sec2 div+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec2 aside div+div i{
+    text-align: center;
+}
+#sec3{
+    /* border: 2px solid red; */
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+#sec3 aside{
+    /* border: 2px solid red; */
+    height: 550;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+#sec3 aside div{
+    /* border: 2px solid green; */
+    height: 550px;
+    width: 50%;
+
+}
+#sec3 aside div{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+#sec3 div+div{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+#sec3 div h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+#sec3 div p{
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 400;
+}
+#sec3 div a{
+    font-size: 18px;
+    color: #107AC5;
+}
+#sec3 div i{
+    color: #757575;
+}
+
+#sec4{
+    /* border: 2px solid red; */
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+#sec4 aside{
+    /* border: 2px solid red; */
+    height: 500px;
+    width: 76%;
+    display: flex;
+    justify-content: center;
+}
+#sec4 aside div{
+    /* border: 12px solid green; */
+    height: 500px;
+    width: 33.3%;
+}
+#sec4 h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+#sec4 div img{
+    height:230px ;
+    width: 94%;
+    border-radius: 3%;
+}
+#sec4 div h1{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 28px;
+}
+#sec4 div p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    line-height: 25px;
+}
+#sec4 div h1:hover{
+    cursor: pointer;
+    color: #107AC5;
+
+}
+#sec5{
+    height: 450px;
+    background:url('./Assets/illu-homepage-video.svg') center ;
+    position: relative;
+}
+#sec5 aside{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+#sec5 aside h1{
+    font-size: 28px;
+    font-weight: 500;
+}
+#sec5 aside p{
+    font-size: 21px;
+}
+#sec5 aside i{
+    fill: rgba(186, 182, 182, 0.3);
+    font-size: 70px;
+    color: rgb(153, 197, 238);
+    
+}
+#sec6{
+    /* border: 2px solid red; */
+    height: 700px;
+    
+}
+#sec6 aside{
+    /* border: 2px solid green; */
+    height: 340px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#sec6 aside h1{
+    font-size: 30px;
+    font-weight: 600;
+}
+#sec6 aside div{
+    height: 150px;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+#sec6 aside+aside{
+    background-color: #f7f7f7;
+}
+#sec6 aside+aside #h1{
+    font-size: 32px;
+    
+}
+#sec6 aside+aside p{
+    font-size: 20px;
+    font-weight: 400;
+}
+#sec6 button{
+    height: 45px;
+    width: 260px;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 3%;
+    background-color: #107AC5;
+    color: white;
+    border: none;
+}
+#sec6 button:hover{
+cursor: pointer;
+background-color: #106cc5;
+}
+footer{
+    /* border: 2px solid red; */
+    height: 460px;
+    display: flex;
+    justify-content: center;
+}
+footer aside{
+    /* border: 2px solid green; */
+    height: 460px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+   
+    
+}
+footer div{
+    /* border: 2px solid red; */
+    height: 460px;
+    width: 25%;
+}
+footer #d1{
+   
+    text-align: center;
+    padding: 25px;
+}
+footer div ul{
+list-style: none;
+text-align: start;
+padding: 35px;
+line-height: 25px;
+color: #107ac5;
+}
+footer .c1{
+    color: #000000;
+    font-weight: 600;
+}
